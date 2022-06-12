@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Term 1 Assignment 2</title>
+        <link rel="stylesheet" href="./style.css">
+<!--This is the Raleway font I added from Google-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="main_navigation">
+<!--This is where the hamburger menu is activated-->
+<div class="topnav">
+    <a href="#" class="active"><img class="ham" src="cd.png"></a>
+    <div id="myLinks">
+    <a href="./about_me.html">About Me</a>
+    <a href="./blog.html">Blog</a>
+    <a href="./contact_me.html">Contact</a>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+    <img class="ham1" src="hamburger.png">
+    </a>
+    <script> function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+      </script>
+</div>
+        </header>
+        <main>
+            <section class="section1">
+                <h1 class="h1">My name is Cy Dacey, I am an enrolled student at Coder Academy, and this is my portfolio.</h1>
+                <a class="learnlink" href="./about_me.html"><h3 class="h3">Learn More About Me>></h3></a>
+            </section>
+            <img class="img1" src="homeph1.jpg">
+            <section>
+                <h2 class="h2">Why I started Coding?</h2>
+                <p class="p">The reason i wanted to start coding is because ever since a young age i have always been quite entrueged by technology, whether that range's from the 
+                computer itself to just flying a drone. But that wasn't enough i needed to know what was behind these pieces of machinery. That's where I stumbled accross coding.</p>
+            </section>
+            <section>
+                <h2 class=h21>From My Blogs</h2>
+                <div class="blogs">
+                <a href="./blog.html"><img class="blog1" src="1blog.jpg"></a>
+                <a href="./blog.html"><img class="blog2" src="2blog.jpg"></a>
+                <p class="date1">May 20th, 2021</p>
+                <p class="date2">March 17th, 2022</p>
+                <a href="./blog.html"><img class="blog3" src="3blog.webp"></a>
+                <a href="./blog.html"><img class="blog4" src="4blog.png"></a>
+                <p class="date3">February 18th, 2021</p>
+                <p class="date4">April 5th, 2022</p>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Term 1 Assignment 2</title>
+        <link rel="stylesheet" href="./style.css">
+        <!--This is the Raleway font I added from Google-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="main_navigation">
+<!--This is where the hamburger menu is activated-->
+<div class="topnav">
+    <a href="./index.html" class="active"><img class="ham" src="cd.png"></a>
+    <div id="myLinks">
+    <a href="./about_me.html">About Me</a>
+    <a href="./blog.html">Blog</a>
+    <a href="./contact_me.html">Contact</a>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+    <img class="ham1" src="hamburger.png">
+    </a>
+    <script> function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+      </script>
+</div>
+        </header>
+        <main>
+                <h1 class="headin1">Cy Cleveland Dacey</h1>
+                <section class="section3">
+                <p class="pp1">My name is Cy Cleveland Dacey, I am 18 years old as of March this year and I was born on the Gold Coast.
+                As far as my personality goes I would say I am the type of person to have no filter, and I believe that the most important
+                attribute in a person is their humor. My interests consist of going to the gym at least 4 times a week and gaming with my friends.
+                Through study and physical experience i have gathered skills such as marketing, engineering and gymnastics at level 9 but I had to retire
+                due to a back injury in 2019.</p>
+                </section>
+                <img class="image1" src="me.jpg">
+                <img class="image2" src="TSS.png">
+                <h2 class="headin2">Work and Study History</h2>
+                <p class="pp2">I recently just graduated from The Southport School last year, at school I was enrolled in subjects such as Engineering, 
+                    Math Methods, English, Math Specialist and Health. Aswell as completing a course in Marketing in the past few months. As for work, 
+                    from 14-17 I worked at pizza hut but now i am currently employed and a medical uniform distributor. </p>
+                    <br>
+                    <br>
+                <a href="fake-resume.pdf" download><img class="image3" src="resume.png"></a>
+        </main>
+    </body>
+</html>

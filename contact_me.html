@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Term 1 Assignment 2</title>
+        <link rel="stylesheet" href="./style.css">
+        <!--This is the Raleway font I added from Google-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="main_navigation">
+<!--This is where the hamburger menu is activated-->
+<div class="topnav">
+    <a href="./index.html" class="active"><img class="ham" src="cd.png"></a>
+    <div id="myLinks">
+    <a href="./about_me.html">About Me</a>
+    <a href="./blog.html">Blog</a>
+    <a href="./contact_me.html">Contact</a>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+    <img class="ham1" src="hamburger.png">
+    </a>
+    <script> function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+      </script>
+</div>
+        </header>
+        <main>
+<!--Images, and Links to Github and LinkedIn Via Username-->
+            <section>
+                <br>
+            <img class="phone" src="phone.png">
+            <h2 class="header1">:0457176818</h2>
+            <img class="phone" src="mail.png">
+            <h2 class="header1">:cy.dacey@gmail.com</h2>
+            <img class="phone" src="github.png">
+            <a href="https://github.com/Disobay"><h2 class="header1">:Disobay</h2></a>
+            <img class="phone" src="in.png">
+            <a href="https://au.linkedin.com/"><h2 class="header1">:Cy Dacey</h2></a>
+            </section>
+        </main>
+    </body>
+</html>

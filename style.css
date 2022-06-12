@@ -1,0 +1,498 @@
+/*The Base CSS stylesheet is for the phone*/
+{
+    margin: 0px ;
+    padding: 0px ;
+}
+
+
+.home_logo{
+    height: 43px;
+    width: 76px;
+}
+
+
+/*All the colors where chosen from a color palette*/
+body{
+    background-color: #999999;
+}
+
+
+/*Styling for Nav Bar*/
+.topnav {
+    overflow: hidden;
+    background-color: #777777;
+    position: relative;
+}
+
+
+.topnav #myLinks {
+    display: none;
+}
+
+
+.topnav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.topnav a.icon {
+    background: lightgrey;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.topnav a:hover {
+    background-color: lightgrey;
+    color: black;
+}
+/*The Next Lines of code are for the Hamburger Menu*/
+.active {
+    background-color: lightgray
+    ;
+    color: white;
+}
+
+.ham{
+    height: 43px;
+    width: 76px;
+}
+
+.ham1{
+    height:30px;
+    width:30px;
+}
+/*Text and Images on Front Page*/
+.h1{
+    font-family: Raleway;
+    font-weight: 2px;
+    position: relative;
+    margin: 30px;
+    margin-top: 20px;
+    height:100px
+    width:100px
+}
+
+.h3 {
+    font-family: Raleway;
+    font-weight: 10px;
+    margin: 30px;
+    color: black;
+}
+
+.img1{
+    position: relative;
+    width:370px;
+    height: 240px;
+}
+
+.h2{
+    position: relative;
+    margin-top: 5px;
+    font-family: Raleway;
+    font-weight: bold;
+}
+p{
+    position: relative;
+    font-family: Raleway;
+    font-size:15px;
+    font-weight: 900;
+
+}
+.h21{
+    display: flex;
+    justify-content: center;
+    font-family: Raleway;
+    font-size: 20px;
+}
+/*Preview of Blog Posts on the Front Page*/
+.blog1{
+    height:150px;
+    width:150px;
+}
+
+.blog2{
+    position: relative;
+    left:70px;
+    height:150px;
+    width:150px;
+}
+
+.blog3{
+    height:150px;
+    width:150px;
+}
+
+.blog4{
+    position: relative;
+    left:70px;
+    margin-top:50px;
+    height:150px;
+    width:150px;
+    
+}
+
+.date1{
+    width: 99px;
+    height:10px;
+}
+
+.date2{
+    position: relative;
+    margin-top: -23px;
+    left: 220px;
+}
+
+.date3{
+    width: 130px;
+    height:10px;
+}
+
+.date4{
+    position: relative;
+    margin-top: -23px;
+    left: 220px;
+}
+
+.section3{
+    margin: 3vw;
+    border-radius:15px;
+    background-color: 	#555555;
+    padding: 4vw;
+    font-family: raleway;
+}
+/*Images and writing on About me Page*/
+.headin1{
+    font-family: raleway;
+
+}
+
+.image1{
+    position: relative;
+    left: 35px;
+    width: 302.4px;
+    height: 403.2px;
+}
+
+.image2{
+    position: relative;
+    width: 351px;
+    height: 212;
+    top:10px;
+    left: 10px;
+}
+
+.headin2{
+    display: flex;
+    justify-content: center;
+    font-family: Raleway;
+
+}
+/*Blog Page Styling for all of the Blogs*/
+.pp2{
+    margin: 3vw;
+    border-radius:15px;
+    background-color: 	#555555;
+    padding: 4vw;
+    font-family: raleway;
+}
+
+.image3{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 130px;
+}
+/*Contact Me Page*/
+.heading1{
+    font-family: Raleway;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.heading2{
+    font-size: 30px;
+    position: relative;
+    top: -20px;
+}
+
+.dat1{
+    position: relative;
+    top: -40px;
+}
+
+.imag2{
+    height: 350px;
+    width: 371px;
+}
+
+.phone{
+    height: 60px;
+    width: 60px;
+}
+
+.header1{
+    position: relative;
+    left:80px;
+    top: -70px;
+    color: black;
+}
+
+/*Breakpoint for Ipad*/
+@media (min-width: 768px) {
+    .h1{
+        position: relative;
+        width: 350px;
+        eight:160px;
+        font-size: 40px;
+    }
+    .h3{
+        position: relative;
+        top:100px;
+        font-size: 25px;
+    }
+    .img1{
+        position: relative;
+        margin-top: -500px;
+        right:-400px
+    }
+    .h2{
+        position: relative;
+        margin-top: 100px;
+        left:10px;
+    }
+    .p{
+        position: relative;
+        margin-top: 5px;
+        left: 10px;
+        height:200px;
+        width:400px;
+        font-size: 20px;
+    }
+    .blog1{
+        height:150px;
+        width:150px;
+        position: relative;
+        left: 220px;
+    }
+    
+    .blog2{
+        position: relative;
+        left:290px;
+        height:150px;
+        width:150px;
+    }
+    
+    .blog3{
+        height:150px;
+        width:150px;
+        position: relative;
+        left: 220px;
+    }
+    
+    .blog4{
+        position: relative;
+        left:290px;
+        margin-top:50px;
+        height:150px;
+        width:150px;
+        
+    }
+    
+    .date1{
+        width: 99px;
+        height:10px;
+        position: relative;
+        left: 220px;
+    }
+    
+    .date2{
+        position: relative;
+        margin-top: -23px;
+        left: 440px;
+    }
+    
+    .date3{
+        width: 130px;
+        height:10px;
+        position: relative;
+        left: 220px;
+    }
+    
+    .date4{
+        position: relative;
+        margin-top: -23px;
+        left: 440px;
+    }
+
+    .section3{
+        margin: 3vw;
+        border-radius:15px;
+        background-color: 	#555555;
+        padding: 4vw;
+        font-family: raleway;
+        height:250px;
+        width: 290px;
+    }
+
+    .image1{
+        position: relative;
+        left:450px;
+        top: -380px;
+    }
+
+    .image2{
+        position:relative;
+        left: 100px;
+        top: -200px;
+    }
+
+    .headin2{
+        display: flex;
+        justify-content: flex-start;
+        position: relative;
+        top: -420px;
+    }
+
+    .pp2{
+        height: 170px;
+        width: 270px;
+        position: relative;
+        top: -410px;
+    }
+
+    .image3{
+        position: relative;
+        left: 350px;
+        top:-420px;
+
+    }
+
+    .imag1{
+        position: relative;
+        left: 200px;
+    }
+
+    .imag2{
+        position: relative;
+        left:200px;
+    }
+
+
+}
+
+
+/*Breakpoint for Laptop*/
+@media (min-width: 992px) { 
+.img1{
+    position: relative;
+    margin-top: -250px;
+    right: -700px;
+      height: 367px;
+      width: 600px;
+    }
+    .blog1{
+    position: relative;
+    left: 670px;
+    }
+    .blog2{
+        position: relative;
+        left:720px;
+    }
+    .blog3{
+        position: relative;
+        left: 670px;
+        }
+    .blog4{
+        position: relative;
+        left:720px;
+        }
+
+        .date1{
+            width: 99px;
+            height:10px;
+            position: relative;
+            left:670px;
+        }
+        
+        .date2{
+            position: relative;
+            margin-top: -23px;
+            left: 870px;
+        }
+        
+        .date3{
+            width: 130px;
+            height:10px;
+            position: relative;
+            left:670px;
+        }
+        
+        .date4{
+            position: relative;
+            margin-top: -23px;
+            left: 870px;
+        }
+
+        .image1{
+            position: relative;
+            top:-450px;
+            left: 850px;
+            height: 750px;
+            width: 560px;
+        }
+
+        .image2{
+            height: 380px;
+            width: 700px;
+            top: 40px;
+            left: 150px;
+        }
+
+        .headin2{
+            position:relative;
+            top: -800px;
+        }
+
+        .pp2{
+            position: relative;
+            top: -800px;
+        }
+
+        .image3{
+            position: relative;
+            left: 280px;
+            top: -630px;
+        }
+
+        .imag1{
+            position: relative;
+            left: 650px;
+        }
+
+        .imag2{
+            position: relative;
+            left: 650px;
+        }
+
+        .dat1{
+            position: relative;
+            left: 580px;
+            height:200px;
+            width: 500px;
+            
+        }
+
+        .heading2{
+            position: relative;
+            left: 580px;
+        }
+        .data1{
+            position: relative;
+            left: 580px;
+}
